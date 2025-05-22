@@ -1,0 +1,53 @@
+:root {
+  --color-background: #bdbdbd;
+  --color-text: #ea4809;
+  --color-accent: #f2d1f3;
+  --color-border: #e4f4f4;
+  --color-placeholder: #999;
+  --font-family-base: "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+}
+
+.body {
+  display: flex;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-family-base);
+}
+
+.header {
+  height: 5%;
+  display: flex;
+  background-color: cadetblue;
+}
+.header .header__part1 .header__part1logo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #e94708;
+}
+.header .header__part2 .header__part2blog {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #e94708;
+  font-size: 35px;
+}
+
+.main .main__section1 {
+  height: 19%;
+}
+.main .main__section2 {
+  height: 19%;
+  background-color: limegreen;
+}
+.main .main__section3 {
+  height: 19%;
+  background-color: darkslateblue;
+}
+.main .main__section4 {
+  height: 19%;
+  background-color: chartreuse;
+}
+.footer {
+  height: 19%;
+  background-color: aqua;
+}
+
+/*# sourceMappingURL=style.css.map */

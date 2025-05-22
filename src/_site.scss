@@ -1,0 +1,174 @@
+// сам сасс
+.header {
+  height: 5%;
+  display: flex;
+  background-color: cadetblue;
+  .header__part1 {
+    .header__part1logo {
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      color: #e94708;
+    }
+  }
+  .header__part2 {
+    .header__part2blog {
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      color: #e94708;
+      font-size: 35px;
+    }
+  }
+}
+.main {
+  .main__section1 {
+    height: 19%;
+    .main__part1 {
+      .main__part1text {
+      }
+    }
+    .main__part2 {
+      .main__pat2head {
+      }
+      .main__part2text {
+      }
+    }
+    .main__part3 {
+    }
+    .main__part4 {
+      .main__part4text {
+      }
+    }
+  }
+  .main__section2 {
+    height: 19%;
+    background-color: limegreen;
+    .main__row1 {
+      .main__row1text {
+      }
+    }
+    .main__row2 {
+      .main__column1 {
+        .main__column1text {
+        }
+      }
+      .main__column2 {
+        .main__row1 {
+          .main__row1head {
+          }
+          .main__row1text {
+          }
+        }
+        .main__row2 {
+          .main__row2head {
+          }
+          .main__row2text {
+          }
+        }
+        .main__row3 {
+          .main__row3head {
+          }
+          .main__row3text {
+          }
+        }
+      }
+    }
+  }
+  .main__section3 {
+    height: 19%;
+    background-color: darkslateblue;
+    .main__part1 {
+      .main__part1text {
+      }
+      .main__part1head {
+      }
+    }
+    .main__part2 {
+      .main__column1 {
+        .main__column1photo {
+        }
+        .main__column1text {
+        }
+      }
+      .main__column2 {
+        .main__column2text {
+        }
+        .main__column2photo {
+        }
+        .main__column2text {
+        }
+      }
+    }
+    .main__part3 {
+      .main__column1 {
+        .main__column1Behance {
+        }
+        .main__column1Dribbble {
+        }
+        .main__column1Instagram {
+        }
+        .main__column1Website {
+        }
+      }
+      .main__column2 {
+        .main__column2text {
+        }
+      }
+    }
+    .main__part4 {
+    }
+  }
+  .main__section4 {
+    height: 19%;
+    background-color: chartreuse;
+    .main__part1 {
+      .main__part1text {
+      }
+      .main__part1head {
+      }
+    }
+    .main__part2 {
+      .main__column1 {
+        .main__column1photo {
+        }
+      }
+      .main__column2 {
+        .main__column2textfirst {
+        }
+        .main__column2photo {
+        }
+        .main__column2textsecond {
+        }
+      }
+    }
+    .main__part3 {
+      .main__column1 {
+        .main__column1Behance {
+        }
+        .main__column1Instagram {
+        }
+        .main__column1Website {
+        }
+      }
+      .main__column2 {
+        .main__column2text {
+        }
+      }
+    }
+    .main__part4 {
+    }
+    .main__part5 {
+      .main__part5link {
+      }
+    }
+  }
+}
+.footer {
+  height: 19%;
+  background-color: aqua;
+  .footer__line {
+  }
+  .footer__connect {
+    .footer__text1 {
+    }
+    .footer__mail {
+    }
+  }
+}
